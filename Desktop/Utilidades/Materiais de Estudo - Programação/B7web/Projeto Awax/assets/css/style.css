@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-height: 100px;
+    height: 100px;
+}
+.container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    flex: 1;   
+}
+.logoimg {
+    width: 59px;
+    height: 58px;
+    background-image: url("../img/medalha.png");
+    background-repeat: no-repeat;
+}
+.menu {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    flex: 3;
+}
+.menu ul {
+    padding-top: 43px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu li:hover {
+    padding-bottom: 40px;
+    border-bottom: 5px solid #b98b59;
+} 
+.menu a:active{
+    padding-bottom: 40px;
+    border-bottom: 5px solid #b98b59;
+} 
+.menu a:focus{
+    padding-bottom: 40px;
+    border-bottom: 5px solid #b98b59;
+}
+.menu ul li {
+    margin-left: 20px;
+    align-items: center;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    background-image: url('../media/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.slider_text {
+    margin: 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#text1 {
+    color: #fff;
+}
+#text2 {
+    color: #b98b59;
+}
+.slider_leg {
+    font-size: 17px;
+    color: #fff;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.slider_button {
+    margin: 50px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #b98b59;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+.slider_button:hover {
+    background-color: #c9ad5a;
+}
+.slider_button a {
+    padding: 18px;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+.about_us {
+    display: flex;
+    height: 530px;
+}
+.about_us h1 { 
+    color: #000;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.about_us p {
+    color: #adadad;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.text_who {
+    margin-bottom: 50px;
+}
+.text_about {
+    display: flex;
+    flex-direction: row;
+}
+.text {
+    max-height: 275px;
+    height: 275px;
+    font-size: 15px;
+    flex: 2;
+    align-items: flex-start;
+}
+.about_button a {
+    background-color: #b98b59;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    padding: 18px;
+    width: 195px;
+    border-radius: 20px;
+}
+.about_button a:hover {
+    background-color: #c9ad5a;
+}
+.about_video {
+    background-image: url('../img/balao.png');
+    background-color: #000;
+    margin-left: 15px;
+    height: 275px;
+    flex: 1;
+    box-shadow: 5px 5px 15px #000;
+}
+#services {
+    background-color: #000000;
+}
+.services_box {
+    
+    max-height: 415px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.text_services {
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.text_services h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+}
+.text_services p {
+    text-transform: uppercase;
+}
+.text_services p,
+#legenda1,
+#legenda2,
+#legenda3,
+#legenda4 {
+    color: #afafaf;
+    font-size: 15px;
+}
+#texto1 h1,
+#texto2 h1,
+#texto3 h1,
+#texto4 h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    justify-content: baseline;
+    align-items: center;
+}
+.box {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: flex-start;
+}
+
+#box1 {
+    display: block;
+    flex: 1;
+    height: 100%;
+    border-left: 2px solid #afafaf;
+}
+
+#box2 {
+    display: block;
+    flex: 1;
+    height: 100%;
+    border-left: 2px solid #afafaf;
+}
+#box3 {
+    display: block;
+    flex: 1;
+    height: 100%;
+    border-left: 2px solid #afafaf;
+}
+#box4 {
+    display: block;
+    flex: 1;
+    height: 100%;
+    border-left: 2px solid #afafaf;
+    border-right: 2px solid #afafaf;
+}
+#logo1,
+#logo2, 
+#logo3, 
+#logo4 {
+    padding-bottom: 20px;
+}

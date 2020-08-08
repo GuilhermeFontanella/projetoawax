@@ -150,7 +150,8 @@ section div {
 .about_us {
     display: flex;
     width: 100%;
-    height: 100vh;
+    margin-top: 60px;
+    margin-bottom: 85px;
 }
 .about_us h1 { 
     color: #000;
@@ -203,7 +204,6 @@ section div {
 #services {
     background-color: #000000;
     width: 100%;
-    height: 100vh;
 }
 .services_box {
     
@@ -888,11 +888,223 @@ section div {
 
 
 .contact {
-    background-image: url('../media/mapa.png');
+    background-color: #f7f7f7;
+}
+.contact-form label {
+    text-transform: uppercase;
 }
 .formulario {
-    
     max-width: 1140px;
     width: 1140px;
     margin: auto;
+}
+.contact-title {
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.contact-title h1 {
+    font-size: 40px
+}
+.contact-title p {
+    color: #aeaeae;
+    font-size: 20px
+}
+#form-user {
+    display: flex;
+    flex-direction: row;
+}
+.input-field {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #aeaeae;
+    margin-right: 20px;
+    color: #aeaeae;
+    align-items: flex-end;
+    margin-bottom: 45px;
+    font-size: 18px;
+    flex:1;
+}
+#form-user .input-field:last-child {
+    margin-right: 0px;
+}
+input {
+    border: none;
+    background-color: #f7f7f7;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+#form-sub label,
+#form-msg label {
+    flex: 1;
+}
+#form-sub input,
+#form-msg input {
+    flex: 4;
+}
+#form-msg  {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.user {
+    width: 100%;
+    margin-right: 0px;
+}
+.form-button  {
+    padding: 14px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #b59059;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.form-button:hover {
+    background-color: #c9ad5a;
+}
+
+
+
+
+
+
+
+.location {
+    background-image: url('../media/mapa.png');
+}
+.map {
+    max-width: 1140px;
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.adress {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #aeaeae;
+    flex: 1;
+}
+.empty {
+    flex: 1;
+}
+
+.adress-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    
+}
+.adress-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.adress-icon {
+    background-color: #aeaeae;
+    width: 35px;
+    height: 35px;
+    border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.rodape {
+    background-color: #000;
+}
+.rodape-area {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.rodape-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.footer-social {
+    display: flex;
+    flex-direction: row;
+}
+.social-incons {
+    background-color: #8f8f8f;
+    width: 35px;
+    height: 35px;
+    border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.social-incons img {
+    padding: 10px;   
+}
+.social-incons:hover {
+    background-color:#b59059;
+}
+.footer-description {
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.footer-text {
+    text-align: left;
+    color: #7e7e7e;
+    font-size: 15px;
+}
+.subscribe {
+    margin-left: 20px;
+    padding: 45px;
+    text-align: center;
+    background-color: #373737;
+    border-radius: 5px;
+}
+.rodape-box input {
+    text-align: center;
+    background-color: #373737;
+    border-bottom: 2px solid #7e7e7e;
+}
+.subscribe-button {
+    background-color: #b59059;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 28px;
+}
+.subscribe-button:hover {
+    background-color: #c9ad5a;
 }

@@ -9,7 +9,7 @@ Este projeto está dividido em partes, seguindo o layout original:
 - logo marca, menu;
 - slider de apresentação do modelo de negócio da empresa (que ainda não foi adicionado);
 - seção de "about us";
-- seção de serviços que são oferecidos; <<<< (O projeto está neste estágio de desenvolvimento)
+- seção de serviços que são oferecidos; 
 - portfolio com amostra de alguns trabalho realizados pela equipe da empresa;
 - uma seção dedicada a apresentar os colaboradores (um slider que ainda não foi adicionado);
 - seção dedicada a depoimentos de clientes satisfeitos;
@@ -18,7 +18,7 @@ Este projeto está dividido em partes, seguindo o layout original:
 - seção com alguns fatos curiosos sobre os números da empresa, e disponibiliza links 
 das suas redes sociais para que o cliente possa comentar algo;
 - área de contato. Nesta parte o cliente tem a opção de enviar uma mensagem diretamente
-para a empresa;
+para a empresa;     <<<< (O projeto está neste estágio de desenvolvimento)
 - uma seção com um mapa e localização da empresa;
 - e por ultimo um rodapé, que contém as redes sociais, mais algumas informações complementares e
 uma área em que o cliente pode adicionar o seu e-mail para receber mensagens com conteúdos da empresa.
@@ -41,7 +41,7 @@ This project is divided into parts, following the original layout:
 - brand logo, menu;
 - presentation slider of the company's business model (which has not yet been added);
 - "about us" section;
-- section of services that are offered; <<<< (The project is at this stage of development)
+- section of services that are offered; 
 - portfolio with a sample of some work done by the company's team;
 - a section dedicated to introducing employees (a slider that has not yet been added);
 - section dedicated to testimonials from satisfied customers;
@@ -50,7 +50,7 @@ This project is divided into parts, following the original layout:
 - section with some curious facts about the company's numbers, and provides links
 your social networks so that the customer can comment on something;
 - contact area. In this part the customer has the option to send a message directly
-for the company;
+for the company;   <<<< (The project is at this stage of development)
 - a section with a map and location of the company;
 - and finally a footer, containing social networks, plus some complementary information and
 an area where the customer can add his email to receive messages with company content.

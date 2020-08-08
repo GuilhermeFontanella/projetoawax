@@ -13,7 +13,7 @@ Este projeto está dividido em partes, seguindo o layout original:
 - logo marca, menu;
 - slider de apresentação do modelo de negócio da empresa (que ainda não foi adicionado);
 - seção de "about us";
-- seção de serviços que são oferecidos; <<<< (O projeto está neste estágio de desenvolvimento)
+- seção de serviços que são oferecidos; 
 - portfolio com amostra de alguns trabalho realizados pela equipe da empresa;
 - uma seção dedicada a apresentar os colaboradores (um slider que ainda não foi adicionado);
 - seção dedicada a depoimentos de clientes satisfeitos;
@@ -45,7 +45,7 @@ This project is divided into parts, following the original layout:
 - brand logo, menu;
 - presentation slider of the company's business model (which has not yet been added);
 - "about us" section;
-- section of services that are offered; <<<< (The project is at this stage of development)
+- section of services that are offered; 
 - portfolio with a sample of some work done by the company's team;
 - a section dedicated to introducing employees (a slider that has not yet been added);
 - section dedicated to testimonials from satisfied customers;

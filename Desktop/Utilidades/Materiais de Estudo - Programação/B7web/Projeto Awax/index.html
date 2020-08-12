@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-        <meta viewport="width">
+        <meta name="viewport" content="width=device-width, user-scalable=0">
     </head>
     <body>
         <header class="home">
@@ -25,10 +25,29 @@
                         <li><a href="#some_facts">some facts</a></li>
                         <li><a href="#contact_us">contact us</a></li>
                     </ul>
-                </nav>    
+                </nav>
+                <div class="menu-opened" onclick="menuopen()">
+                    <img src="./assets/img/menu.png">
+                </div>
             </div>
+                                                
         </header>
         <main>
+            <div class="menu-open open">
+                <nav class="menu-area">
+                    <ul>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about_us">about us</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#our_projects">our projects</a></li>
+                        <li><a href="#our_team">our team</a></li>
+                        <li><a href="#happy_clients">happy clients</a></li>
+                        <li><a href="#price">price</a></li>
+                        <li><a href="#some_facts">some facts</a></li>
+                        <li><a href="#contact_us">contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
             <section id="slider_main">
                 <div class="slider">
                     <div class="slider-content">
@@ -42,11 +61,12 @@
                         <div class="slider_button">
                             <a href="">get in touch!</a>
                         </div>
-                        <div class="slider_dots">
-                            <div class="slider_dot active"></div>
-                            <div class="slider_dot"></div>
-                            <div class="slider_dot"></div>
-                        </div>
+                        
+                    </div>
+                    <div class="slider_dots">
+                        <div class="slider_dot active"></div>
+                        <div class="slider_dot"></div>
+                        <div class="slider_dot"></div>
                     </div>
                 </div>
             </section>
@@ -146,56 +166,56 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
                         </div>     
                     </div>
-                    <div class="project-img1">
+                    <div class="project-img1  responsive2">
                         <img src="./assets/media/foto5.jpg">
                         <div class="project-img1--about">
                             <h1>about</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
                         </div>     
                     </div>
-                    <div class="project-img1">
+                    <div class="project-img1 responsive2">
                         <img src="./assets/media/foto6.jpg">
                         <div class="project-img1--about">
                             <h1>about</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
                         </div>     
                     </div>
-                    <div class="project-img1">
+                    <div class="project-img1 responsive">
                         <img src="./assets/media/foto1.jpg">
                         <div class="project-img1--about">
                             <h1>about</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
                         </div>     
                     </div>
-                    <div class="project-img1">
+                    <div class="project-img1 responsive">
                         <img src="./assets/media/foto2.jpg">
                         <div class="project-img1--about">
                             <h1>about</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
                         </div>     
                     </div>
-                    <div class="project-img1">
+                    <div class="project-img1 responsive">
                         <img src="./assets/media/foto3.jpg">
                         <div class="project-img1--about">
                             <h1>about</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
                         </div>     
                     </div>
-                    <div class="project-img1">
+                    <div class="project-img1 responsive">
                         <img src="./assets/media/foto4.jpg">
                         <div class="project-img1--about">
                             <h1>about</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
                         </div>     
                     </div>
-                    <div class="project-img1">
+                    <div class="project-img1 responsive">
                         <img src="./assets/media/foto5.jpg">
                         <div class="project-img1--about">
                             <h1>about</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
                         </div>     
                     </div>
-                    <div class="project-img1">
+                    <div class="project-img1 responsive">
                         <img src="./assets/media/foto6.jpg">
                         <div class="project-img1--about">
                             <h1>about</h1>
@@ -228,10 +248,9 @@
                                     <div><img src="./assets/img/pinterest.png"></div>
                                     <div><img src="./assets/img/twitter.png"></div>
                                 </div>
-                            </div>
-                            
+                            </div>   
                         </div>
-                        <div class="team-slider--workerarea">
+                        <div class="team-slider--workerarea responsive">
                             <div class="team-slider--workerimg">
                                 <img src="./assets/media/homem1.png">
                                 <div class="team-slider--workername">
@@ -248,7 +267,7 @@
                             </div>
                             
                         </div>
-                        <div class="team-slider--workerarea">
+                        <div class="team-slider--workerarea responsive">
                             <div class="team-slider--workerimg">
                                 <img src="./assets/media/mulher1.png">
                                 <div class="team-slider--workername">
@@ -306,10 +325,10 @@
                     <ul>
                         <li><img src="./assets/media/empresa1.png"></li>
                         <li><img src="./assets/media/empresa2.png"></li>
-                        <li><img src="./assets/media/empresa3.png"></li>
-                        <li><img src="./assets/media/empresa4.png"></li>
-                        <li><img src="./assets/media/empresa5.png"></li>
-                        <li><img src="./assets/media/empresa6.png"></li>
+                        <li class="a1"><img src="./assets/media/empresa3.png" class="responsive"></li>
+                        <li class="a1"><img src="./assets/media/empresa4.png" class="responsive"></li>
+                        <li class="a1"><img src="./assets/media/empresa5.png" class="responsive"></li>
+                        <li class="a1"><img src="./assets/media/empresa6.png" class="responsive"></li>
                     </ul>
                 </div>
             </section>
@@ -495,7 +514,10 @@
                 <div class="social-part">
                     <div class="product-list social-media">
                         <div class="share">
-                            <img src="./assets/img/share.png">
+                            <div class="share-img a1">
+                                <img src="./assets/img/share.png">
+                            </div>
+                            
                             <p>tell about us:</p>
                         </div>
                         <div class="social-part--media">
@@ -635,7 +657,7 @@
                             </div>  
                         </div>
                     </div>
-                    <div class="empty"></div>
+                    <div class="empty a1"></div>
                 </div>
             </section>
             <footer class="rodape">

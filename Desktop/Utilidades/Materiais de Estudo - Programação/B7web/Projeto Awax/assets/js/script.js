@@ -7,3 +7,24 @@ function menuopen() {
         status.classList.add('open');
     }
 }
+
+
+function recebeEmail() {
+    let user = document.querySelector('#userEmail').value;
+
+    alert(`Obrigado! enviaremos nossas melhores ofertas para: ${user} `)
+
+    console.log(user);
+}
+
+
+function recebeContato() {
+    let usuario = {
+        nome: document.querySelector('#name').value,
+        email: document.querySelector('#email').value,
+        assunto: document.querySelector('#subject').value,
+        mensagem: document.querySelector('#mensagem').value
+    };
+
+    console.log(usuario);
+}

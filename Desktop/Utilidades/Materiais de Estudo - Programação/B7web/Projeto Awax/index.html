@@ -584,7 +584,7 @@
                                     <label>
                                     subject
                                     </label>
-                                    <input type="text" title="Insert you message.">  
+                                    <input id="subject" type="text" title="Insert you message.">  
                                 </div>  
                             </div>   
                             <div id="form-msg">
@@ -592,12 +592,12 @@
                                     <label>
                                     message
                                     </label>
-                                    <input type="text" title="Insert you message.">    
+                                    <input id="mensagem" type="text" title="Insert you message.">    
                                 </div>
                                 
                             </div>                     
                         </form>
-                        <div class="form-button">
+                        <div class="form-button" onclick="recebeContato()">
                             send message
                         </div>
                     </div>
@@ -701,9 +701,9 @@
                     <div class="rodape-box">
                         <div class="subscribe">
                             <div class="input-area">
-                                <input placeholder="EMAIL TO SUBSCRIBE">
+                                <input id="userEmail" placeholder="EMAIL TO SUBSCRIBE">
                             </div>
-                            <div class="subscribe-button">
+                            <div class="subscribe-button" onclick="recebeEmail()">
                                 subscribe
                             </div>
                         </div>
